@@ -1,5 +1,8 @@
-def fizzbuzz(n)
-  n % 15 == 0 ? 'FizzBuzz' :
-  n %  3 == 0 ? 'Fizz' :
-  n %  5 == 0 ? 'Buzz' : n
+class Integer
+  def fizzbuzz
+    self.zero? ? 0 :
+    self % 15 == 0 ? 'FizzBuzz' :
+    self %  3 == 0 ? 'Fizz' :
+    self %  5 == 0 ? 'Buzz' : self
+  end
 end
