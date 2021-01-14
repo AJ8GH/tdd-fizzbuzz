@@ -1,4 +1,4 @@
-class Integer
+class Numeric
   def fizzbuzz
     self.zero? ? 0 :
     self % 15 == 0 ? 'FizzBuzz' :

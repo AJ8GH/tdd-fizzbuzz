@@ -28,16 +28,20 @@ describe 'fizzbuzz' do
   it "returns number if number is not divisible by 3 or 5" do
     [1,2,4,7,8,11,13,14,16,17,19].each { |n| expect(n.fizzbuzz).to eq n }
   end
-  # edge case for zero
+  # ------ edge cases -------
   it 'returns 0 when passed 0' do
     expect(0.fizzbuzz).to eq 0
   end
-  # edge case for large range
+
   it 'works for very large ranges too' do
     (15..15_000_000).step(15).each { |n| expect(n.fizzbuzz).to eq 'FizzBuzz' }
   end
 
   it 'works for negative numbers too' do
     (-300_000..-15).step(15).each { |n| expect(n.fizzbuzz).to eq 'FizzBuzz' }
+  end
+
+  it 'works on floats too' do
+    [3,6,9,12,18,21,24,27].each { |n| expect(n.to_f.fizzbuzz).to eq 'Fizz' }
   end
 end
