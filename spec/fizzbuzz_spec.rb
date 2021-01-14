@@ -1,8 +1,8 @@
-require_relative '../lib/fizzbuzz'
+require 'fizzbuzz'
 
 describe 'fizzbuzz' do
   it 'can be passed a number' do
-    expect { fizzbuzz(1) }.not_to raise_error
+    expect { fizzbuzz(1) }.to_not raise_error
   end
 
   it "returns Fizz when passed 3" do
