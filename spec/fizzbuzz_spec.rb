@@ -1,6 +1,10 @@
 require 'fizzbuzz'
 
-describe 'fizzbuzz' do
+describe '#fizzbuzz' do
+  it 'is a valid method' do
+    expect(3.respond_to? :fizzbuzz).to be true
+  end
+
   it 'can be passed a number' do
     expect { 1.fizzbuzz }.to_not raise_error
   end
