@@ -1,4 +1,4 @@
-require 'fizzbuzz'
+require_relative './../lib/fizzbuzz'
 
 describe '#fizzbuzz' do
   it 'is a valid method' do
