@@ -7,9 +7,3 @@ RSpec::Core::RakeTask.new(:spec) do |task|
 end
 
   task default: :spec
-
-# task default: %w[test]
-#
-# task :test do
-#   ruby 'spec/fizzbuzz_spec.rb'
-# end
