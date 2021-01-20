@@ -2,7 +2,7 @@
 Classic fizzbuzz coding problem, solved using Ruby, Tested using TDD, RSpec and Travis CI.
 
 ## Objective
-The goal of the exercise was to follow a true TDD approach by writing tests first and watching them fail, before writing the minimum amount of code required to see them turn green. This was also an exercise in pair programming and applying best practices in whilst pairing.
+The goal of the exercise was to follow a true TDD approach by writing tests first and watching them fail, before writing the minimum amount of code required to see them turn green. This was also an exercise in pair programming and applying best practices while pairing.
 
 ### FizzBuzz problem:
 Write a method which when passed a number, returns:
