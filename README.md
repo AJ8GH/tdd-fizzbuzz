@@ -1,4 +1,9 @@
-# FizzBuzz [![Build Status](https://travis-ci.com/AJ8GH/tdd-fizzbuzz.svg?branch=master)](https://travis-ci.com/AJ8GH/tdd-fizzbuzz)
+# FizzBuzz
+
+[![Build Status](https://travis-ci.com/AJ8GH/tdd-fizzbuzz.svg?branch=master)](https://travis-ci.com/AJ8GH/tdd-fizzbuzz)
+
+[![Coverage Status](https://coveralls.io/repos/github/AJ8GH/tdd-fizzbuzz/badge.svg?branch=master)](https://coveralls.io/github/AJ8GH/tdd-fizzbuzz?branch=master)
+
 Classic fizzbuzz coding problem, solved using Ruby, Tested using TDD, RSpec and Travis CI.
 
 ## Objective
